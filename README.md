@@ -1,6 +1,6 @@
-# (Conekta)[https://www.conekta.com] client wrtten in Go
+# [Conekta](https://www.conekta.com) client wrtten in Go
 
-###Installation:
+### Installation:
 
 ```
 go get github.com/jimmy-go/conekta
