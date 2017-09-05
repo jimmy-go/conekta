@@ -238,4 +238,10 @@ type PaymentMethod struct {
 }
 
 // Order type.
-type Order struct{}
+type Order struct {
+	ID       string `json:"id"`
+	Amount   int64  `json:"amount"`
+	Currency string `json:"currency,omitempty"`
+	// TODO; add fields.
+	// see: https://pastebin.com/nj8JnYYv
+}
