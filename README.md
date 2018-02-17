@@ -1,4 +1,4 @@
-### [Conekta](https://www.conekta.com) client wrtten in Go
+## [Conekta](https://www.conekta.com) client written in Go.
 
 [![License MIT](https://img.shields.io/npm/l/express.svg)](http://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/jimmy-go/conekta.svg?branch=master)](https://travis-ci.org/jimmy-go/conekta)
@@ -6,19 +6,21 @@
 [![GoDoc](http://godoc.org/github.com/jimmy-go/conekta?status.png)](http://godoc.org/github.com/jimmy-go/conekta)
 [![Coverage Status](https://coveralls.io/repos/github/jimmy-go/conekta/badge.svg?branch=master)](https://coveralls.io/github/jimmy-go/conekta?branch=master)
 
-#### Installation:
+### Installation:
 
 ```
 go get github.com/jimmy-go/conekta
 ```
 
-#### Usage:
+### Usage:
 
 ```
 c, err := conekta.NewClient("api key", "secret")
+
+// TODO;
 ```
 
-#### License:
+### License:
 
 MIT License
 
